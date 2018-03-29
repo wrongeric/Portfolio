@@ -2,10 +2,7 @@
 var isPhoneDevice = "ontouchstart" in document.documentElement;
 $(document).ready(function () {
     if (isPhoneDevice) {
-        //mobile
     } else {
-        //desktop
-        // Initialize WOW.js
         wow = new WOW({
             offset: 50
         })
@@ -67,7 +64,7 @@ $(document).ready(function () {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 
-    //Modal information object
+    //Modal Information stored in an Object
     var portfolioInfo = {
         artisanDate: {
             title: 'Artisan Date',
@@ -103,7 +100,7 @@ $(document).ready(function () {
         $("#portfolioModal").find('.modal-body .github').attr('href', gitHubLink);
         $('#portfolioModal').modal('show');
     }
-    //portfolio Modal Click Handler
+    // Portfolio Modal Click Handler
     $('.portfolio-wrapper').on('click', presentModalInformation);
 
 })(jQuery); // End of use strict
