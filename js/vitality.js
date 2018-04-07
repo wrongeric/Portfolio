@@ -82,7 +82,7 @@ $(document).ready(function () {
             title: 'mBoutique',
             image: 'img/creative/mboutique.png',
             description: `<p>MBoutique is a demo storefront website designed for those who love everything related to Macarons.  The site is fully developed and created in React and fully mobile responsive.</p>`,
-            links: ["https://ericwong.us/mBoutique", "https://github.com/wrongeric/react_mboutique"]
+            links: ["http://mboutique.ericwong.us", "https://github.com/wrongeric/react_mboutique"]
         }
     }
 
