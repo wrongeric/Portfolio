@@ -69,7 +69,7 @@ $(document).ready(function () {
         artisanDate: {
             title: 'Artisan Date',
             image: 'img/creative/artisandatehomepage.png',
-            description: `<p>Artisan Date generates great date ideas with just a few touches of your fingertips.  The application provides a great variety of choices of events, restaurants, and drink options so that your dates will never grow stale.</p><p>I was responsible for developing the frontend for Artisan Date using React and Redux.  My primary contribution to the app was the summary page and implementing Google Maps.  In addition, I contributed to every page on the application whether it was writing Javascript, designing and styling each page, or making sure each page was fully mobile responsive.</p>`,
+            description: `<p>Artisan Date generates great date ideas with just a few touches of your fingertips.  The application provides a great variety of events, restaurants, and drink options to choose from so that your dates will never grow stale.</p><p>I was responsible for developing the frontend for Artisan Date using React and Redux.  My primary contribution to the app was the summary page and implementation of the Google Maps API using React.  In addition, I contributed to every page on the application whether it was writing Javascript, designing and styling each page, or making sure each page was fully mobile responsive.</p>`,
             links: ["http://www.artisandate.com", "https://github.com/Learning-Fuze/c12.17_datenight"]
         },
         surfsUp: {
