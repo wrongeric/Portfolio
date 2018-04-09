@@ -98,7 +98,9 @@ h6 {
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link {
     padding-top: 15px;
     padding-bottom: 15px;
-    color: white; }
+    color: white;
+    text-shadow: white 0px 0px 10px;
+}
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link:focus, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
     color: rgba(255, 255, 255, 0.5); }
 #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
@@ -441,6 +443,13 @@ header.video .scroll-down {
     overflow: hidden;
     width: 48%;
     margin: 1%; }
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .portfolio-grid .mix {
+        width: 98%;
+    }
+}
+
 .portfolio-grid .mix .portfolio-wrapper {
     position: relative !important;
     overflow: hidden;
