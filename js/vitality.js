@@ -68,19 +68,19 @@ $(document).ready(function () {
     var portfolioInfo = {
         artisanDate: {
             title: 'Artisan Date',
-            image: 'img/creative/artisandatehomepage.png',
+            image: 'img/creative/artisan-modal.png',
             description: `<p>Artisan Date generates great date ideas with just a few touches of your fingertips.  The application provides a great variety of events, restaurants, and drink options to choose from so that your dates will never grow stale.</p><p>I was responsible for developing the frontend for Artisan Date using React and Redux.  My primary contribution to the app was the summary page and implementation of the Google Maps API using React.  In addition, I contributed to every page on the application whether it was writing Javascript, designing and styling each page, or making sure each page was fully mobile responsive.</p>`,
             links: ["http://www.artisandate.com", "https://github.com/wrongeric/Artisan-Date.git"]
         },
         surfsUp: {
             title: 'Surfs Up',
-            image: 'img/creative/surfapp1.png',
+            image: 'img/creative/surfs-up-modal.png',
             description: `<p>Surfs Up is an application designed for the surfer enthusiast who wants to get the surf conditions at a local beach quickly and conveniently.  Our first version of the project was created during a 48 Hour Hackathon during which my primary contribution was implementing the Flickr API and creating the photo modal.</p><p>After the Hackathon, I took up the project lead role and continued working on the application to make it fully mobile responsive and dynamic in terms of the data that is displayed on the data results page.</p>`,
             links: ["http://surfsup.ericwong.us", "https://github.com/Fedrius/c12.17Hackathon2"]
         },
         mBoutique: {
             title: 'mBoutique',
-            image: 'img/creative/mboutique.png',
+            image: 'img/creative/mboutique-modal.png',
             description: `<p>MBoutique is a demo storefront website designed for those who love everything related to Macarons.</p><p>The site is developed and created in React and fully mobile responsive, and also utilizes React Router to route user to various pages.</p>`,
             links: ["http://mboutique.ericwong.us", "https://github.com/wrongeric/react_mboutique"]
         }
